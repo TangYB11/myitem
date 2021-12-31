@@ -24,11 +24,11 @@
 --
 数据库拥有三个表：
 
-1）存放用户的user：name、password
+1）存放用户的user：name（名字）、password（密码）
 
-2）存放商品的products：proName、procost、propostage、prodes、proImg
+2）存放商品的products：proName（商品名）、procost（商品价格）、propostage（邮费）、prodes（商品描述）、proImg（商品图片）
 
-3)查询商品用的searchProduct：proName、procost、propostage、prodes、proImg
+3)查询商品用的searchProduct：proName（商品名）、procost（商品价格）、propostage（邮费）、prodes（商品描述）、proImg（商品图片）
 
 ![JCKP11KPHGW6(`KI889CL)H](https://user-images.githubusercontent.com/95195374/147814214-df2d688b-9314-4eb9-b33b-558bdc37a4c1.png)
 
@@ -112,13 +112,10 @@ npm install multiparty --save  图片的保存
 四、开发日记
 ==
 因为我的vscode与github仓库传输出了问题，所以我第一个项目tybsitem只有一个雏形便停止了，我当时尝试了很多方法，但迫于交作业的deadline，我就先另创项目做了，没有
-
 实时传输数据到github仓库，最后是一起通过命令行使用token传输到github仓库的。
 
 项目大概流程：先引用了css等建好了首页、登录与注册页面，然后实现了与数据库相连（此时只有user，来实现注册与登录），然后顺利实现登录注册功能后又开始对商品的增、删、改、查
-
 等功能进行一步步实现，增与删是蛮简单的，修改略微复杂一点，查找最为复杂，虽然只是实现了简单的增删改查但中途也遇到了许多困难，上百度各种查找，有时候一个bug要花费几个小时来
-
-解决，这两天做各种大作业做的我头疼肩膀酸的，一点活力都没有，还有南方的冬天太冷了，开空调都顶不住，想赶快回家享受地暖了，快点结束吧，大作业也是，期末考试也是，太难了。
-
+解决，这两天做各种大作业做的我头疼肩膀酸的，一点活力都没有，还有南方的冬天太冷了，开空调都顶不住，想赶快回家享受地暖了，快点结束吧，大作业也是，期末考试也是，太难了 T-T
+。
 
