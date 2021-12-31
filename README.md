@@ -50,6 +50,8 @@ npm install multiparty --save  图片的保存
 
 3.项目目录结构和各个部分的说明
 --
+![FGM~4(A``G17GPE()IJA5%0](https://user-images.githubusercontent.com/95195374/147817918-49cf7274-0757-4252-ac6f-89120c1cf78a.png)
+
 1）public 引入的前端界面需要的css js bootstrap
 
 2）router 包括各种js 实现例如上一页、下一页的功能
@@ -70,7 +72,7 @@ npm install multiparty --save  图片的保存
 --
 ![Ubuntu20-2021-12-31-16-46-24](https://user-images.githubusercontent.com/95195374/147813931-29679b8c-9754-4bde-98a4-977422685ce5.png)
 
-可以选择用户注册与用户登录，实现用户的注册与登录。
+可以选择用户注册与用户登录，跳转到用户的注册与登录。
 
 2.登录界面
 --
@@ -80,6 +82,7 @@ npm install multiparty --save  图片的保存
 
 3.注册界面
 --
+![M4KHMLFW4DO5BI5CF4XQYNN](https://user-images.githubusercontent.com/95195374/147817534-e7778f54-71e9-4df7-8958-b38a558f42f7.png)
 
 可以进行新用户的注册，将数据保存到数据库中，从而能实现登录。
 
@@ -92,8 +95,30 @@ npm install multiparty --save  图片的保存
 
 5.增加商品
 --
+![JZ )7%{6$K0C0PD)JYO8T](https://user-images.githubusercontent.com/95195374/147817793-693cbdaa-6e6b-48c3-bd19-c11d8964d0e2.png)
 
 可以通过此界面实现对商品的增加。
 
-6.
+6.查询商品
+--
+![9%MMKJV0BZQM_0G _1DLP%Y](https://user-images.githubusercontent.com/95195374/147818198-a9babdb8-c570-464a-8c9f-c6bc841b3369.png)
+
+此栏可以对商品进行查找，找到自己想要修改或者删除的商品，亦或者想要看到的商品。
+
+7.更多
+---
+待开发
+
+四、开发日记
+==
+因为我的vscode与github仓库传输出了问题，所以我第一个项目tybsitem只有一个雏形便停止了，我当时尝试了很多方法，但迫于交作业的deadline，我就先另创项目做了，没有
+
+实时传输数据到github仓库，最后是一起通过命令行使用token传输到github仓库的。
+
+项目大概流程：先引用了css等建好了首页、登录与注册页面，然后实现了与数据库相连（此时只有user，来实现注册与登录），然后顺利实现登录注册功能后又开始对商品的增、删、改、查
+
+等功能进行一步步实现，增与删是蛮简单的，修改略微复杂一点，查找最为复杂，虽然只是实现了简单的增删改查但中途也遇到了许多困难，上百度各种查找，有时候一个bug要花费几个小时来
+
+解决，这两天做各种大作业做的我头疼肩膀酸的，一点活力都没有，还有南方的冬天太冷了，开空调都顶不住，想赶快回家享受地暖了，快点结束吧，大作业也是，期末考试也是，太难了。
+
 
