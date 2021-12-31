@@ -30,5 +30,70 @@
 
 3)查询商品用的searchProduct：proName、procost、propostage、prodes、proImg
 
-![image](https://github.com/lTangYB11/myitem/new/master/IMG/ps2.png)
+![JCKP11KPHGW6(`KI889CL)H](https://user-images.githubusercontent.com/95195374/147814214-df2d688b-9314-4eb9-b33b-558bdc37a4c1.png)
+
+2.引入的包
+--
+npm install express --save  路由 开发框架
+
+npm install ejs --save  渲染
+
+npm install mongodb --save  数据库
+
+npm install mongoose --save  mongoose模块
+
+npm install exprss-session  保存用户信息
+
+npm install md5-node --save  对密码进行加密
+
+npm install multiparty --save  图片的保存
+
+3.项目目录结构和各个部分的说明
+--
+1）public 引入的前端界面需要的css js bootstrap
+
+2）router 包括各种js 实现例如上一页、下一页的功能
+
+3）upload 商品的图片
+
+4）views 页面的设置
+
+5）app.js 主程序
+
+6）mongodb.js 数据库连接
+
+7）其他 开发过程测试的js
+
+三、使用说明
+==
+1.系统首页
+--
+![Ubuntu20-2021-12-31-16-46-24](https://user-images.githubusercontent.com/95195374/147813931-29679b8c-9754-4bde-98a4-977422685ce5.png)
+
+可以选择用户注册与用户登录，实现用户的注册与登录。
+
+2.登录界面
+--
+![N6XBYOV7V_5Y{H}DS0BERSM](https://user-images.githubusercontent.com/95195374/147815349-b662df33-2b9d-4fc3-a410-a2d7dbfd62d3.png)
+
+可以核对数据库的表中数据，正确输入密码后实现登录跳转功能（密码为加密密码）。
+
+3.注册界面
+--
+
+可以进行新用户的注册，将数据保存到数据库中，从而能实现登录。
+
+4.商品列表（商品的展示、修改与删除）
+--
+![MX7A)8)A`F{XWQS~)MDYEQ3](https://user-images.githubusercontent.com/95195374/147815571-0fe2729a-8623-481b-8077-92a914ccb670.png)
+
+可以展示所有商品的名称、价格、图片、邮费等详细信息，还可以通过点击修改与删除实现对商品的修改与删除，上一页与下一页可以
+实现翻页（如若商品显示不出，请点击上一页，商品即可刷新出来）。
+
+5.增加商品
+--
+
+可以通过此界面实现对商品的增加。
+
+6.
 
