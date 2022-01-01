@@ -60,11 +60,13 @@ npm install multiparty --save  图片的保存
 
 4）views 页面的设置
 
-5）app.js 主程序
+5）app.bac.js 主程序
 
 6）mongodb.js 数据库连接
 
-7）其他 开发过程测试的js
+7）app.js js合集
+
+8) 其他
 
 三、使用说明
 ==
