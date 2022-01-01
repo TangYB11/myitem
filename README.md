@@ -66,7 +66,7 @@ npm install multiparty --save  图片的保存
 
 7）app.js js合集
 
-8) 其他
+8）其他
 
 三、使用说明
 ==
